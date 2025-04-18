@@ -2,6 +2,7 @@
 
 import { useContext } from "react"; // New import
 import { Navigate, useLocation } from "react-router-dom";
+import AppContext from "../context/AppContext"; // New import
 
 // Remove isLoggedIn from props
 export default function ProtectedRoute({ children, anonymous = false }) {

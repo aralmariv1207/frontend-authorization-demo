@@ -11,7 +11,7 @@ import Login from "./Login";
 import MyProfile from "./MyProfile";
 import Register from "./Register";
 import ProtectedRoute from "./ProtectedRoute";
-import AppContext from "./AppContext";
+import AppContext from "../context/AppContext";
 
 import * as auth from "../utils/auth";
 import * as api from "../utils/api";
